@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 app.get("/", (req, res) => {
   res.json({ data: "this works" });
